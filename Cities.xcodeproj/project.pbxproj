@@ -16,6 +16,8 @@
 		E440B77523CCD07500C86B44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E440B77323CCD07500C86B44 /* LaunchScreen.storyboard */; };
 		E440B78023CCD07600C86B44 /* CitiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E440B77F23CCD07600C86B44 /* CitiesTests.swift */; };
 		E440B78B23CCD07600C86B44 /* CitiesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E440B78A23CCD07600C86B44 /* CitiesUITests.swift */; };
+		E440B79923CCD2A900C86B44 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = E440B79823CCD2A900C86B44 /* City.swift */; };
+		E440B79B23CCD3BF00C86B44 /* Chicago.png in Resources */ = {isa = PBXBuildFile; fileRef = E440B79A23CCD3BE00C86B44 /* Chicago.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		E440B78623CCD07600C86B44 /* CitiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CitiesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E440B78A23CCD07600C86B44 /* CitiesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesUITests.swift; sourceTree = "<group>"; };
 		E440B78C23CCD07600C86B44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E440B79823CCD2A900C86B44 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		E440B79A23CCD3BE00C86B44 /* Chicago.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Chicago.png; path = ../../../../Downloads/Chicago.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,7 @@
 		E440B75A23CCD07200C86B44 = {
 			isa = PBXGroup;
 			children = (
+				E440B79823CCD2A900C86B44 /* City.swift */,
 				E440B76523CCD07200C86B44 /* Cities */,
 				E440B77E23CCD07600C86B44 /* CitiesTests */,
 				E440B78923CCD07600C86B44 /* CitiesUITests */,
@@ -107,6 +112,7 @@
 				E440B76C23CCD07200C86B44 /* DetailViewController.swift */,
 				E440B76E23CCD07200C86B44 /* Main.storyboard */,
 				E440B77123CCD07500C86B44 /* Assets.xcassets */,
+				E440B79A23CCD3BE00C86B44 /* Chicago.png */,
 				E440B77323CCD07500C86B44 /* LaunchScreen.storyboard */,
 				E440B77623CCD07500C86B44 /* Info.plist */,
 			);
@@ -235,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E440B79B23CCD3BF00C86B44 /* Chicago.png in Resources */,
 				E440B77523CCD07500C86B44 /* LaunchScreen.storyboard in Resources */,
 				E440B77223CCD07500C86B44 /* Assets.xcassets in Resources */,
 				E440B77023CCD07200C86B44 /* Main.storyboard in Resources */,
@@ -263,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E440B76723CCD07200C86B44 /* AppDelegate.swift in Sources */,
+				E440B79923CCD2A900C86B44 /* City.swift in Sources */,
 				E440B76923CCD07200C86B44 /* SceneDelegate.swift in Sources */,
 				E440B76B23CCD07200C86B44 /* MasterViewController.swift in Sources */,
 				E440B76D23CCD07200C86B44 /* DetailViewController.swift in Sources */,
