@@ -12,7 +12,6 @@
 		E440B76B23CCD07200C86B44 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E440B76A23CCD07200C86B44 /* MasterViewController.swift */; };
 		E440B76D23CCD07200C86B44 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E440B76C23CCD07200C86B44 /* DetailViewController.swift */; };
 		E440B77023CCD07200C86B44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E440B76E23CCD07200C86B44 /* Main.storyboard */; };
-		E440B77223CCD07500C86B44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E440B77123CCD07500C86B44 /* Assets.xcassets */; };
 		E440B77523CCD07500C86B44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E440B77323CCD07500C86B44 /* LaunchScreen.storyboard */; };
 		E440B78023CCD07600C86B44 /* CitiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E440B77F23CCD07600C86B44 /* CitiesTests.swift */; };
 		E440B78B23CCD07600C86B44 /* CitiesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E440B78A23CCD07600C86B44 /* CitiesUITests.swift */; };
@@ -44,7 +43,6 @@
 		E440B76A23CCD07200C86B44 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		E440B76C23CCD07200C86B44 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		E440B76F23CCD07200C86B44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E440B77123CCD07500C86B44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E440B77423CCD07500C86B44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E440B77623CCD07500C86B44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E440B77B23CCD07600C86B44 /* CitiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CitiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,7 +83,6 @@
 		E440B75A23CCD07200C86B44 = {
 			isa = PBXGroup;
 			children = (
-				E440B79823CCD2A900C86B44 /* City.swift */,
 				E440B76523CCD07200C86B44 /* Cities */,
 				E440B77E23CCD07600C86B44 /* CitiesTests */,
 				E440B78923CCD07600C86B44 /* CitiesUITests */,
@@ -106,12 +103,12 @@
 		E440B76523CCD07200C86B44 /* Cities */ = {
 			isa = PBXGroup;
 			children = (
+				E440B79823CCD2A900C86B44 /* City.swift */,
 				E440B76623CCD07200C86B44 /* AppDelegate.swift */,
 				E440B76823CCD07200C86B44 /* SceneDelegate.swift */,
 				E440B76A23CCD07200C86B44 /* MasterViewController.swift */,
 				E440B76C23CCD07200C86B44 /* DetailViewController.swift */,
 				E440B76E23CCD07200C86B44 /* Main.storyboard */,
-				E440B77123CCD07500C86B44 /* Assets.xcassets */,
 				E440B79A23CCD3BE00C86B44 /* Chicago.png */,
 				E440B77323CCD07500C86B44 /* LaunchScreen.storyboard */,
 				E440B77623CCD07500C86B44 /* Info.plist */,
@@ -243,7 +240,6 @@
 			files = (
 				E440B79B23CCD3BF00C86B44 /* Chicago.png in Resources */,
 				E440B77523CCD07500C86B44 /* LaunchScreen.storyboard in Resources */,
-				E440B77223CCD07500C86B44 /* Assets.xcassets in Resources */,
 				E440B77023CCD07200C86B44 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

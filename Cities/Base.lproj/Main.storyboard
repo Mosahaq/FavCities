@@ -31,12 +31,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="0XM-y9-sOw">
-                                <rect key="frame" x="20" y="448" width="374" height="0.0"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Population" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GOg-We-srG">
                                 <rect key="frame" x="132" y="406" width="150" height="34"/>
                                 <accessibility key="accessibilityConfiguration" hint="City"/>
@@ -79,11 +73,8 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="Y09-zW-Qls" firstAttribute="centerX" secondItem="svH-Pt-448" secondAttribute="centerX" id="EXp-fJ-uiK"/>
-                            <constraint firstItem="0XM-y9-sOw" firstAttribute="leading" secondItem="svH-Pt-448" secondAttribute="leading" constant="20" symbolic="YES" id="Tsc-yG-G1q"/>
                             <constraint firstItem="U0l-Un-Mrs" firstAttribute="centerX" secondItem="svH-Pt-448" secondAttribute="centerX" id="UKa-YU-hia"/>
                             <constraint firstItem="kYO-wl-d82" firstAttribute="centerX" secondItem="svH-Pt-448" secondAttribute="centerX" id="f5a-CX-PN1"/>
-                            <constraint firstItem="0XM-y9-sOw" firstAttribute="centerY" secondItem="svH-Pt-448" secondAttribute="centerY" id="jWN-iV-94e"/>
-                            <constraint firstAttribute="trailing" secondItem="0XM-y9-sOw" secondAttribute="trailing" constant="20" symbolic="YES" id="tHV-ZD-HQj"/>
                             <constraint firstItem="GOg-We-srG" firstAttribute="centerX" secondItem="svH-Pt-448" secondAttribute="centerX" id="uBQ-2I-EZ2"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="VUw-jc-0yf"/>
@@ -91,7 +82,10 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="City Details" id="mOI-FS-AaM"/>
                     <connections>
-                        <outlet property="detailDescriptionLabel" destination="0XM-y9-sOw" id="deQ-Na-JPF"/>
+                        <outlet property="cityTextField" destination="U0l-Un-Mrs" id="bkI-W3-eh2"/>
+                        <outlet property="imageView" destination="svH-Pt-448" id="POT-2g-SyU"/>
+                        <outlet property="populationTextField" destination="GOg-We-srG" id="YYh-Kh-qJD"/>
+                        <outlet property="stateTextField" destination="Y09-zW-Qls" id="Wit-pU-1tk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FJe-Yq-33r" sceneMemberID="firstResponder"/>
